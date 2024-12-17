@@ -1,11 +1,16 @@
+// Autor: Santiago Palencia
+// Tema: Parcial 1 Restaurante
 
 package parcial1;
 
-
-class Cliente {
+public class Cliente {
     private String nombre;
 
-    Cliente(String nombre) {
-        throw new UnsupportedOperationException("Not supported yet."); 
+    public Cliente(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 }
